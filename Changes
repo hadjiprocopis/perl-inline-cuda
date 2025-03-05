@@ -1,0 +1,20 @@
+Revision history for Inline-CUDA
+
+0.01    2021-07-15
+        First version, released on an unsuspecting world.
+
+0.11    2021-07-30
+        Attempt to fix quoting commands with spaces and Xcompiler, Xlinker parameters
+
+0.12    2021-12-30
+        Added some more demo and made it more robust in detecting errors due to
+        incompatible host compilers
+
+0.13    2022-01-01
+        inlinecuda dir is now installed in the shared-dir of the distribution
+        so that it #include <inlinecuda/perlbridge.h> works.
+
+0.14    2022-01-04
+        Quoting of header files and made sure that the
+        INC flag in use Inline C => Config => ...
+	is handled correctly. This will be an ongoing problem...
